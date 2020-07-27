@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_menu">
+
+        <item
+            android:title="Buscar"
+            android:icon="@drawable/icons8_hotel_de_5_estrellas_100"
+            android:id="@+id/action_MascFav"
+            app:showAsAction="ifRoom|collapseActionView"
+            app:actionViewClass="androidx.appcompat.widget.Toolbar"
+            />
+        <item
+            android:title="Opciones"
+            android:id="@+id/action_opciones"
+            app:showAsAction="collapseActionView"
+            app:actionViewClass="androidx.appcompat.widget.Toolbar"
+            >
+        </item>
+</menu>

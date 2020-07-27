@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="tvnombre">nombre</string>
+    <string name="tvrating">rating</string>
+</resources>
