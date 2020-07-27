@@ -10,14 +10,11 @@
             android:title="Buscar"
             android:icon="@drawable/icons8_hotel_de_5_estrellas_100"
             android:id="@+id/action_MascFav"
-            app:showAsAction="ifRoom|collapseActionView"
-            app:actionViewClass="androidx.appcompat.widget.Toolbar"
-            />
+            app:showAsAction="ifRoom|collapseActionView">
+        </item>
         <item
             android:title="Opciones"
             android:id="@+id/action_opciones"
-            app:showAsAction="collapseActionView"
-            app:actionViewClass="androidx.appcompat.widget.Toolbar"
-            >
+            app:showAsAction="collapseActionView" >
         </item>
 </menu>
